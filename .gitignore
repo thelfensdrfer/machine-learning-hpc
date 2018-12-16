@@ -1,0 +1,7 @@
+tree*
+pip-*
+pyvenv*
+
+bin/*
+include/*
+lib/*
