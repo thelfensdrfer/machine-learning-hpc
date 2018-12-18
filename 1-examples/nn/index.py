@@ -15,7 +15,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
 # Load and split into train and test data
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-# Normalize the pixels (grayscale value between 0 and 255)
+# Normalize the pixels (it is already a grayscale value between 0 and 255)
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 

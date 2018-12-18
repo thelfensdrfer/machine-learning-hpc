@@ -56,3 +56,4 @@ Task: Create a tree which shows the probable math score of a student when all bu
 Test data from: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
 
 Task: Create a k-nn algorithm that can predict whether a athelete won a medal or not.
+Bonus Points: Optimize accuracy (See `3-solutions/k-nn/index.py` "TODO")
