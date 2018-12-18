@@ -19,7 +19,7 @@
 
 https://scikit-learn.org/stable/modules/tree.html
 
-Run: `python decision-trees/index.py`.
+Run: `python 1-examples/decision-trees/index.py`.
 
 Two files will be created:
 * 1 `tree` which contains the visualization in text form
@@ -29,7 +29,7 @@ Two files will be created:
 
 https://scikit-learn.org/stable/modules/neighbors.html
 
-Run `python k-nn/index.py`.
+Run `python 1-examples/k-nn/index.py`.
 
 Two plots will open which only differ in the `weights` argument.
 
@@ -41,10 +41,12 @@ https://www.tensorflow.org/tutorials/keras/basic_classification
 
 Tensorflow only works with python2 or python3.[4-6]. 
 
-Run `python nn/index.py`
+Run `python 1-examples/nn/index.py`
 
 ## Exercises
 
 ### Decision Trees
 
 Test data from: https://www.kaggle.com/spscientist/students-performance-in-exams
+
+Task: Create a tree which shows the probable math score of a student when all but the math score columns are given.

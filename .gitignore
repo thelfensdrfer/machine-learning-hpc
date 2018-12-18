@@ -2,6 +2,8 @@ tree*
 pip-*
 pyvenv*
 
+*.csv
+
 bin/*
 include/*
 lib/*
