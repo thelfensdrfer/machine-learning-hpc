@@ -1,10 +1,17 @@
 ## Installation
 
-* Install graphviz
-	* macOS: `brew install graphviz` (via [homebrew](https://brew.sh/))
-	* Ubuntu: `sudo apt-get install graphviz`
+### Python packages
 * Install packages from requirements.txt
-    * `pip install -r requirements.txt` 
+    * `pip install -r requirements.txt`
+    
+### macOS
+
+* Install graphviz: `brew install graphviz` (via [homebrew](https://brew.sh/))
+
+### Ubuntu
+
+* Install graphviz: `sudo apt-get install graphviz`
+* Install tkinter: `sudo apt-get install python3-tk`
 
 ## Examples
 
@@ -32,6 +39,12 @@ Two plots will open which only differ in the `weights` argument.
 
 https://www.tensorflow.org/tutorials/keras/basic_classification
 
-Tensorflow only works with python2 or python3.[4-6]. The packages `tensorflow` and `keras`are not included in the `requirements.txt`. You can install the packages with `pip2 install [package]`. Please refer to the [official docs](https://www.tensorflow.org/install/pip).
+Tensorflow only works with python2 or python3.[4-6]. 
 
+Run `python nn/index.py`
 
+## Exercises
+
+### Decision Trees
+
+Test data from: https://www.kaggle.com/spscientist/students-performance-in-exams
