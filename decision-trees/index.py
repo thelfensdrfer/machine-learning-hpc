@@ -10,10 +10,14 @@ iris = load_iris()
 clf = tree.DecisionTreeClassifier()
 
 # Build the tree
-# iris.data is a multidimensional array with features
+# iris.data is a multidimensional array with features (X)
 # [
-#  [1, 2, 3, 4]
+#  [1, 2, 3, 4],
+#  [5, 6, 7, 8],
 # ]
+#
+# iris.target are the classifications (Y)
+# [1, 2]
 clf = clf.fit(iris.data, iris.target)
 
 # Predict class with the following 4 features
