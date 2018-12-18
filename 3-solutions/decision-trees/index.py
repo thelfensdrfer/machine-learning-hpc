@@ -1,19 +1,8 @@
 import graphviz
 from sklearn import tree
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 import pandas as pd
 import os
-
-# Load sample dataset (https://www.kaggle.com/spscientist/students-performance-in-exams)
-data = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/StudentsPerformance.csv', index_col=False)
-
-# Rename columns
-data.rename(columns={
-    'race/ethnicity': 'race',
-    'parental level of education': 'parental_education',
-    'test preparation course': 'test_course'
-}, inplace=True)
 
 
 # Map strings to integers
@@ -24,6 +13,16 @@ def map_strings_to_integers(df, column):
 
     return df
 
+
+# Load sample dataset (https://www.kaggle.com/spscientist/students-performance-in-exams)
+data = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/StudentsPerformance.csv', index_col=False)
+
+# Rename columns
+data.rename(columns={
+    'race/ethnicity': 'race',
+    'parental level of education': 'parental_education',
+    'test preparation course': 'test_course'
+}, inplace=True)
 
 data = map_strings_to_integers(data, 'gender')
 data = map_strings_to_integers(data, 'race')

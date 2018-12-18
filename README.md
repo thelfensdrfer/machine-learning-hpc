@@ -50,3 +50,9 @@ Run `python 1-examples/nn/index.py`
 Test data from: https://www.kaggle.com/spscientist/students-performance-in-exams
 
 Task: Create a tree which shows the probable math score of a student when all but the math score columns are given.
+
+### K-Neirest-Neighbour
+
+Test data from: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+Task: Create a k-nn algorithm that can predict whether a athelete won a medal or not.
