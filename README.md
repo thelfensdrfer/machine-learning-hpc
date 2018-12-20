@@ -47,13 +47,19 @@ Run `python 1-examples/nn/index.py`
 
 ### Decision Trees
 
-Test data from: https://www.kaggle.com/spscientist/students-performance-in-exams
+Test data: https://www.kaggle.com/spscientist/students-performance-in-exams
 
 Task: Create a tree which shows the probable math score of a student when all but the math score columns are given.
 
 ### K-Nearest-Neighbour
 
-Test data from: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+Test data: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
 
 Task: Create a k-nn algorithm that can predict whether a athelete won a medal or not.
 Bonus Points: Optimize accuracy (See `3-solutions/k-nn/index.py` "TODO")
+
+### Neuronal Network
+
+Test data: https://www.kaggle.com/moltean/fruits
+
+Task: Create a neuronal network that can identify a fruit in an image.
