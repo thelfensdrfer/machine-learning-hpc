@@ -25,7 +25,7 @@ Two files will be created:
 * 1 `tree` which contains the visualization in text form
 * 2 `tree.pdf` which contains the actual visualization of the tree
 
-### K-Neirest-Neighbour (sklearn)
+### K-Nearest-Neighbour (sklearn)
 
 https://scikit-learn.org/stable/modules/neighbors.html
 
@@ -51,7 +51,7 @@ Test data from: https://www.kaggle.com/spscientist/students-performance-in-exams
 
 Task: Create a tree which shows the probable math score of a student when all but the math score columns are given.
 
-### K-Neirest-Neighbour
+### K-Nearest-Neighbour
 
 Test data from: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
 

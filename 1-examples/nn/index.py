@@ -41,7 +41,7 @@ model.compile(
 )
 
 # Train model
-# Epohcs: https://stackoverflow.com/a/44907684/1100089
+# Epochs: https://stackoverflow.com/a/44907684/1100089
 model.fit(train_images, train_labels, epochs=5)
 
 # Evaluate model
