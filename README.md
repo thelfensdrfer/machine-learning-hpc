@@ -43,6 +43,14 @@ Tensorflow only works with python2 or python3.[4-6].
 
 Run `python 1-examples/nn/index.py`
 
+### Natural Language Processing
+
+https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction
+
+Test data from: https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
+
+Run `python 1-examples/nlp/index.py`
+
 ## Exercises
 
 ### Decision Trees
